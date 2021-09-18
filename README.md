@@ -8,9 +8,15 @@
 
 <hr>
 
+Realizada instalação do magento 2 via composer 2; 
+composer2 create-project --repository-url=https://repo.magento.com/ magento/project-community-edition.
+
+Tambem foi utilizado o bin/magento app:config:dump, para permitir a exportação das lojas criadas caso necessário, visto que ficam salvas no arquivo config.
+
 Para iniciar a tarefa, dentro do painel administrativo foi criado uma multiple store para iniciar o projeto, seguindo os parâmetros indicados pela documentação oficial, realizando a criação dentro do painel e posteriormente, configurando o servidor Apache2;
 
 https://devdocs.magento.com/guides/v2.4/config-guide/multi-site/ms_apache.html
+
 
 <img src="imgReadme/image1.png">
 
