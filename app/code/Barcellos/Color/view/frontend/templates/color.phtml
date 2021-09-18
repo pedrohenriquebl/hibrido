@@ -1,0 +1,12 @@
+<?php
+
+/** @var $viewModel \Barcellos\Color\ViewModel\ChangeButtonColor */
+
+$viewModel = $block->getViewModel();
+
+?>
+<style>
+    .primary{
+        background:<?= $block->escapeHtml($viewModel->getColor());?> !important;
+    }
+</style>
