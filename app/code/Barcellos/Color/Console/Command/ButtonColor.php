@@ -105,7 +105,7 @@ class ButtonColor extends Command
 
         if(ctype_xdigit($color) && strlen($color)==6) {
             if($this->validateStore($storeId)) {
-                $output->writeln('<info>Provided name is `' . $color . '`</info>');
+                $output->writeln('<info>Modified with sucess - new color:`' . $color . '`</info>');
                 $this->configWriter->save("barcellos/color/buttoncolor", $color, "stores", $storeId );
                 $this->flushCache();
                 return 1;
