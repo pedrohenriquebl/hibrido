@@ -11,6 +11,10 @@
 
 <hr>
 
+*P.S
+O dump do banco de dados está dentro do projeto como mysql.sql, para importá-lo utilizar o comando:
+mysql -u user -psenha nomedobanco < mysql.sql 
+
 Realizada instalação do magento 2 via composer 2; 
 composer2 create-project --repository-url=https://repo.magento.com/ magento/project-community-edition.
 
