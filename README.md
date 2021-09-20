@@ -4,6 +4,9 @@
 
 ### Alterar a cor dos botões de uma determinada Store através de uma command line interface.
 
+
+![](imgReadme/hibridoprojeto.gif)
+
 ## Parte 1
 
 <hr>
@@ -143,4 +146,4 @@ Caso o valor da cor seja correto e a loja inexiste, também teremos o seguinte e
 Caso a cor seja implementada, será demonstrada a seguinte mensagem;
 
 
-<img src="imgReadme/image17.png">
+<img src="imgReadme/image18.png">
